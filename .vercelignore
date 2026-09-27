@@ -1,0 +1,13 @@
+# Files to ignore during Vercel deployment
+frontend/node_modules
+backend/node_modules
+backend/tests
+backend/storage/logs/*.log
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+screenshots
+*.png
+*.pdf
+.git
+.github
