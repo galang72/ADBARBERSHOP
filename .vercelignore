@@ -6,8 +6,8 @@ backend/storage/logs/*.log
 backend/storage/framework/cache/data/*
 backend/storage/framework/sessions/*
 backend/storage/framework/views/*
-screenshots
-*.png
+screenshots/
+preview_*.png
 *.pdf
 .git
 .github
