@@ -1,0 +1,103 @@
+# Git Ignore for Tritama Barber Project
+# Laravel + React Full Stack Application
+
+# ============================================
+# Backend (Laravel)
+# ============================================
+/backend/vendor/
+/backend/node_modules/
+/backend/.env
+/backend/.env.backup
+/backend/.env.production
+/backend/.phpunit.result.cache
+/backend/Homestead.json
+/backend/Homestead.yaml
+/backend/npm-debug.log
+/backend/yarn-error.log
+/backend/auth.json
+/backend/.fleet
+/backend/.idea
+/backend/.vscode
+/backend/storage/*.key
+/backend/storage/logs/*.log
+/backend/storage/framework/cache/data/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/testing/*
+/backend/storage/framework/views/*
+/backend/storage/app/public/*
+!/backend/storage/app/public/.gitkeep
+!/backend/storage/app/public/assets/
+/backend/bootstrap/cache/*
+!/backend/bootstrap/cache/.gitkeep
+
+# ============================================
+# Frontend (React + Vite)
+# ============================================
+/frontend/node_modules/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development
+/frontend/.env.production
+/frontend/dist/
+/frontend/dist-ssr/
+/frontend/*.local
+/frontend/.idea
+/frontend/.vscode
+
+# ============================================
+# Logs & Databases
+# ============================================
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ============================================
+# IDE & Editor
+# ============================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools
+
+# ============================================
+# Testing
+# ============================================
+coverage/
+.phpunit.result.cache
+.nyc_output
+
+# ============================================
+# Build & Deploy
+# ============================================
+build/
+dist/
+*.tar.gz
+*.zip
+
+# ============================================
+# Misc
+# ============================================
+.env
+.env.*
+!.env.example
+!.env.testing
+
+# Keep these empty directories
+!.gitkeep
